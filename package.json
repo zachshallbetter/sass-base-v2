@@ -1,0 +1,27 @@
+{
+  "name": "sass-adjustment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch --update src:public",
+    "build": "sass src:public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachshallbetter/sass-adjustment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachshallbetter/sass-adjustment/issues"
+  },
+  "homepage": "https://github.com/zachshallbetter/sass-adjustment#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3"
+  }
+}
